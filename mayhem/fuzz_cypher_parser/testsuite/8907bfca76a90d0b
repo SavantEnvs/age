@@ -1,0 +1,2 @@
+WITH 3 AS a, null AS b
+    RETURN reduce(s = 0, x IN [1, 2, 3] | s + x * a + b)

@@ -1,0 +1,1 @@
+MATCH ()-[r0:e1]->() MATCH ()-[r0:e2]->() RETURN r0

@@ -1,0 +1,1 @@
+MATCH (a {id: 1}) CREATE (a)-[:R {s: 1}]->(a)

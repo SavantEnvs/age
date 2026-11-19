@@ -1,0 +1,2 @@
+MATCH (a:Person {name: 'DetachFn1'}), (b:Person {name: 'DetachFn2'})
+    CREATE (a)-[:KNOWS {since: 2021, owner: 'rls_user1'}]->(b)

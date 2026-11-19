@@ -1,0 +1,4 @@
+CREATE (a:T2)-[e:R2]->(b:T2)
+    WITH a, e, b
+    MATCH (a)-[e]->(b)
+    RETURN a, e, b

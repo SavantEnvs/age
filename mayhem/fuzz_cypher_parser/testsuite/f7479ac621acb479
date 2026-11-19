@@ -1,0 +1,1 @@
+RETURN toString(3.14::numeric)

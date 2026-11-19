@@ -1,0 +1,9 @@
+MATCH (a:person)-[]->(b)
+									RETURN
+									  a.name,
+									  b.name,
+									  CASE
+									    WHEN EXISTS { MATCH (a)-[:loved]->(b) } THEN "There is LOVE!!!!!!"
+									    WHEN EXISTS { MATCH (a)-[:knows]->(b) } THEN "There is a relationship"
+									    ELSE "No relation"
+									  END

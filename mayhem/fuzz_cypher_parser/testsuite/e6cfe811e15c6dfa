@@ -1,0 +1,1 @@
+MATCH ()-[r {years:3, relationship: "friends"}]-() RETURN r

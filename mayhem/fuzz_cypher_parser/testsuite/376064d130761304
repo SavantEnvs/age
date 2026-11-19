@@ -1,0 +1,1 @@
+MATCH (u)-->(v) RETURN u.i, v.i

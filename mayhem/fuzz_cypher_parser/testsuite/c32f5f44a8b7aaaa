@@ -1,0 +1,6 @@
+MATCH (n)
+  RETURN CASE n
+    WHEN null THEN 'should not return me'
+    WHEN n.i = 1 THEN n
+    ELSE 'none'
+  END

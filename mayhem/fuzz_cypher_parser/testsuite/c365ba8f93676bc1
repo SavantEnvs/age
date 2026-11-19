@@ -1,0 +1,3 @@
+UNWIND ["foo", "foo"] AS each
+                                      MERGE (v:TEST {name: each})
+                                      RETURN v

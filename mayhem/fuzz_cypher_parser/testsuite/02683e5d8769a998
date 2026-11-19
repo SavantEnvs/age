@@ -1,0 +1,1 @@
+MATCH (n) CREATE (n)-[:e {j:20}]->(:other_v {k:10}) RETURN n

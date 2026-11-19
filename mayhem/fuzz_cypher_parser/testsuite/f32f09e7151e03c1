@@ -1,0 +1,1 @@
+MATCH (u) WHERE u.list=[i IN range(0,12,2) WHERE i>4] RETURN u

@@ -1,0 +1,3 @@
+CREATE (:person {name: 'Alice', age: 38}),
+           (:person {name: 'Bob', age: 25}),
+           (:person {name: 'Daniel', age: 54})

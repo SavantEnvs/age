@@ -1,0 +1,4 @@
+UNWIND ['U1', 'U2'] AS nm
+  MERGE (n:Person {name: nm})
+    ON CREATE SET n.copy_name = n.name
+  RETURN n.name, n.copy_name

@@ -1,0 +1,1 @@
+MATCH (a) WHERE EXISTS(a.age) AND EXISTS(a.name) RETURN a

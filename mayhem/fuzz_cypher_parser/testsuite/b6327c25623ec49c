@@ -1,0 +1,3 @@
+WITH {first: 'jon', last: 'snow'} AS cols
+                        MERGE (v:PERSION {nameo: cols})
+                        RETURN v

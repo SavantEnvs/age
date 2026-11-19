@@ -1,0 +1,3 @@
+MATCH con_path=(a)-[]->()<-[]-()
+	where a.id = 'initial'
+	RETURN con_path

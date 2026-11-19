@@ -1,0 +1,1 @@
+MATCH ()-[k:KNOWS]->() RETURN k.since ORDER BY k.since

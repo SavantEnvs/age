@@ -1,0 +1,4 @@
+MATCH (person:Person)
+    MERGE (city:City {name: person.bornIn})
+    MERGE (person)-[r:BORN_IN]->(city)
+    RETURN person.name, person.bornIn, city

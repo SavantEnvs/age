@@ -1,0 +1,2 @@
+RETURN reduce(s = 0, x IN [1, 2, 3] | s + x) > 5
+           AND reduce(p = 1, y IN [2, 3] | p * y) < 10

@@ -1,0 +1,1 @@
+RETURN pg_catalog.sqrt(null::pg_float8)

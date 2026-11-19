@@ -1,0 +1,2 @@
+MATCH (a:Person {name: 'Alice'}), (d:Document)
+    CREATE (a)-[:OWNS]->(d)

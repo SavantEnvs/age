@@ -1,0 +1,2 @@
+MATCH (a:person)
+									RETURN a.name, COUNT{MATCH (a) RETURN b}

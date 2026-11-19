@@ -1,0 +1,1 @@
+MATCH (n1:Object) MATCH (n2:Object) WHERE EXISTS((n1:Object)-[]->(n2:Object)) RETURN n1,n2

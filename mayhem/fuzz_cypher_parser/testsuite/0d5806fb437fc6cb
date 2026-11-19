@@ -1,0 +1,2 @@
+MATCH (a)-[r]->(b) WHERE r.w <= 300 AND a.pid <= 1000 AND b.pid <= 1000
+               RETURN r

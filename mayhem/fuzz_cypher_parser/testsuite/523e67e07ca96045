@@ -1,0 +1,5 @@
+MATCH (a:person)
+									RETURN a.name, COUNT{MATCH (a) 
+														 WHERE COUNT {MATCH (a)
+														 			  WHERE a.age < 23
+														 			  RETURN a } > 0 }

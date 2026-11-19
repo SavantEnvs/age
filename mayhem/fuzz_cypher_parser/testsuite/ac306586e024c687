@@ -1,0 +1,1 @@
+MATCH ()-[a:foo]->(y), (b {x:2}),(c {x:3}) MERGE (b)-[d:bar]->(c) RETURN d

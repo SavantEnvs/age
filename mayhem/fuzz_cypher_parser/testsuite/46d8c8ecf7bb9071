@@ -1,0 +1,3 @@
+MATCH (a:person)
+									WHERE EXISTS {(a:person)-[]->(:pet)}
+									RETURN (a)

@@ -1,0 +1,1 @@
+RETURN binary_quantize("[1,2,4]")

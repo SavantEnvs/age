@@ -1,0 +1,4 @@
+RETURN reduce(s = 0, x IN [1, 2, 3, 4] |
+                  CASE WHEN x = 2 THEN null
+                       WHEN x = 3 THEN 999
+                       ELSE s + x END)

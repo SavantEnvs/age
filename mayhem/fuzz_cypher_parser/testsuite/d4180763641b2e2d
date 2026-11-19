@@ -1,0 +1,1 @@
+MATCH (n:xyz) CREATE (m:xyz {array:[n.array,[n.array,[n.array]]]}) return m

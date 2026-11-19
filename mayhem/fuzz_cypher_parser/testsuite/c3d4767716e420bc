@@ -1,0 +1,4 @@
+WITH [1,
+        {bool: true, int: 3, array: [9, 11, {bool: false, float: 3.14}, 13]},
+        5, 7, 9] as lst
+    RETURN lst->(size(lst)%size(lst))

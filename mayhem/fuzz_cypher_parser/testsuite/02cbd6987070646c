@@ -1,0 +1,1 @@
+CALL sqrt(64) YIELD sqrt WHERE sqrt > 1 CREATE ({n:'c'})

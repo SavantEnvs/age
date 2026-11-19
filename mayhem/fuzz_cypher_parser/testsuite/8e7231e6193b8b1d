@@ -1,0 +1,2 @@
+CREATE (:Product {category: 'a'})-[r:REL {kind: 'link'}]->(:Product {category: 'b'})
+    RETURN r

@@ -1,0 +1,4 @@
+MATCH (hub:Person {name: 'DetachFnSeqHub'})
+    UNWIND range(1, 16) AS ident
+    CREATE (hub)-[:KNOWS {owner: 'rls_user1'}]->
+           (:Person {owner: 'rls_user1', department: 'DetachFn', seq_leaf: ident})

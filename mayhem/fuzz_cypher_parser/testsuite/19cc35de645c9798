@@ -1,0 +1,4 @@
+MATCH (a:v1)
+	where a.id = 'initial'
+	MATCH p=(a)-[]-()-[]-()
+	RETURN p

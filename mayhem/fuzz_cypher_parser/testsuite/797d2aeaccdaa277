@@ -1,0 +1,4 @@
+MATCH (a)
+								   WHERE {cond : true} = { cond : EXISTS {(a)
+																  WHERE {age: a.age } = {age: a.age > 22}}}
+								   RETURN a

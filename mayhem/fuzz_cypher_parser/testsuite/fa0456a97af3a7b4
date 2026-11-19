@@ -1,0 +1,2 @@
+MATCH ()-[r:KNOWS]->()
+    RETURN max(r)

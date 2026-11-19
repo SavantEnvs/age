@@ -1,0 +1,1 @@
+MATCH (x:Customer ={school:{program:{major:'Cs'}}}) RETURN x

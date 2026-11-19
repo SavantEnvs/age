@@ -1,0 +1,5 @@
+MATCH (p:Person)
+    OPTIONAL MATCH (p)-[:KNOWS]->(friend:Person)
+    WHERE false
+    RETURN p.name AS name, friend.name AS friend
+    ORDER BY name

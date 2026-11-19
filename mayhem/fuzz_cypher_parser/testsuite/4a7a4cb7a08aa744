@@ -1,0 +1,1 @@
+RETURN is_valid_label_name('issue_1953')[{}]

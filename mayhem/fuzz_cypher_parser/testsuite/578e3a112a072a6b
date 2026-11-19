@@ -1,0 +1,5 @@
+MATCH (a:Person {name: 'Anchor'})
+  MERGE (b:Person {name: 'FromOuter'})
+    ON CREATE SET b.source_name = a.name
+    ON MATCH SET b.last_seen_by = a.name
+  RETURN b.source_name, b.last_seen_by

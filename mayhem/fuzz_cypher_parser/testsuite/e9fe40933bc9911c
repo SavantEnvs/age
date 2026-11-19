@@ -1,0 +1,1 @@
+MATCH (u:begin)<-[*0..]-(v:end) RETURN count(*)

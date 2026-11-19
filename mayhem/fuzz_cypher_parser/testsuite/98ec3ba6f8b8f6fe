@@ -1,0 +1,2 @@
+RETURN none(x IN [1, 2, 3] WHERE x > 5)
+           OR single(y IN [1, 2, 3] WHERE y = 2)

@@ -1,0 +1,1 @@
+MATCH (r1:invalid)-[]->(r1)-[]->(r1:invalid)-[]->(r1) return r1

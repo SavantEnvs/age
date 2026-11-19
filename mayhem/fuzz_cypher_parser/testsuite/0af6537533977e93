@@ -1,0 +1,2 @@
+MATCH p = (n0)<-[:R*..2]-(n1)
+    RETURN p

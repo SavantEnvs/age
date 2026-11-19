@@ -1,0 +1,3 @@
+CREATE (u:for_pred {id:1, type: "empty", list: [], map: {}, string: ""}),
+		  (v:for_pred {id:2, type: "filled", list: [1], map: {a:1}, string: "a"}),
+		  (w:for_pred)

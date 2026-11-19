@@ -1,0 +1,1 @@
+MATCH p=(x)-[]->(x:R) RETURN p, x

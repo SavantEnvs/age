@@ -1,0 +1,1 @@
+MATCH ()-[p *]-() MATCH ()-[p]-() RETURN p

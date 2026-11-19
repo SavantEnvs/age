@@ -1,0 +1,1 @@
+MATCH p=() RETURN [i IN range(0, 20, 2) WHERE i % 3 = 0 | i^2 ]

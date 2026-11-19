@@ -1,0 +1,1 @@
+CREATE (:n_var {name: 'Node B'})

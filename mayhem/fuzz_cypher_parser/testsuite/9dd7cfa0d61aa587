@@ -1,0 +1,5 @@
+MERGE (a:Person {name: 'Frank'})
+    ON CREATE SET a.created = true
+  MERGE (a)-[:KNOWS]->(b:Person {name: 'Grace'})
+    ON CREATE SET b.created = true
+  RETURN a.name, a.created, b.name, b.created

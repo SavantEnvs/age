@@ -1,0 +1,1 @@
+MATCH ()-[n]->(:test_4) REMOVE n.i RETURN n

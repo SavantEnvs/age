@@ -1,0 +1,1 @@
+MATCH (u:vertices) SET u.i = 2, u.j = 4, u.k = 6 return u

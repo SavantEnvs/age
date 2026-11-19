@@ -1,0 +1,3 @@
+CREATE (:A {name: 'a1'})-[:R]->(:B {name: 'b1'}),
+           (:A {name: 'a2'})-[:R]->(:B {name: 'b2'}),
+           (:A {name: 'a3'})-[:R]->(:B {name: 'b3'})

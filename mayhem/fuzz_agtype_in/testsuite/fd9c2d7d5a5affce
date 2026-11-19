@@ -1,0 +1,3 @@
+[{"id":1, "label":"test", "properties":{"id":100}}::vertex,
+	  {"id":2, "start_id":1, "end_id": 3, "label":"elabel", "properties":{}}::edge,
+	  {"id":4, "label":"vlabel", "properties":{}}::vertex]::path

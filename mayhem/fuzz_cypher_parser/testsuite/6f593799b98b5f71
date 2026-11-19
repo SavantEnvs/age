@@ -1,0 +1,1 @@
+MATCH (u:for_pred) WHERE isEmpty() RETURN properties(u)

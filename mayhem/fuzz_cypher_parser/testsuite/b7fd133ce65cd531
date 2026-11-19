@@ -1,0 +1,1 @@
+MATCH (n) SET n.i = rand() RETURN n.i < 1 AND n.i >= 0

@@ -1,0 +1,1 @@
+MATCH (u) WITH *, [i in [1,2,3]] as list RETURN list LIMIT 1

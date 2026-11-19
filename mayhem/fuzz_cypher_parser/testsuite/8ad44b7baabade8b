@@ -1,0 +1,1 @@
+RETURN cos(pi())

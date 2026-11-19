@@ -1,0 +1,1 @@
+RETURN none(x IN null WHERE x > 0)

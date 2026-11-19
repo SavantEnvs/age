@@ -1,0 +1,1 @@
+MATCH (a) MATCH (a:invalid_label) RETURN a

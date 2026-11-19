@@ -1,0 +1,2 @@
+MATCH (u:duplicate)
+	CREATE (u)-[:dup_edge {id:2 }]->(:other_v)

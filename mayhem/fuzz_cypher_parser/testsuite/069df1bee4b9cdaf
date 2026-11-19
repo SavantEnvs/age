@@ -1,0 +1,1 @@
+RETURN (['NaN'::pg_float8, {one: 'inf'::pg_float8, pie: 3.1415927, e: 2.718281::numeric}, 2::numeric, null])

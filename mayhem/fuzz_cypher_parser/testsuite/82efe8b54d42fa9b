@@ -1,0 +1,1 @@
+MATCH(u: csm_match) WITH u WHERE [u IN u.list][0] STARTS WITH "ab" RETURN u

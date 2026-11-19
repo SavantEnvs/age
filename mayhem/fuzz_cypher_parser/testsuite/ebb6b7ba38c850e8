@@ -1,0 +1,4 @@
+MATCH (a:Source)-[:LINK*1..1]->(b:Target)
+    WITH count(*) AS first
+    MATCH (c:Source)-[:LINK*1..1]->(d:Target)
+    RETURN first, count(*)

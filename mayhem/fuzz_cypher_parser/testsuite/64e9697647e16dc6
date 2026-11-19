@@ -1,0 +1,1 @@
+RETURN delete_global_graphs('ag_graph_4')

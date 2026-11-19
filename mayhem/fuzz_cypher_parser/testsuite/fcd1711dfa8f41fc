@@ -1,0 +1,1 @@
+RETURN any(x IN [1, 2, 3] WHERE all(y IN [1, 2] WHERE y < x))

@@ -1,0 +1,1 @@
+RETURN any(x IN [1, null] WHERE x IS NULL)

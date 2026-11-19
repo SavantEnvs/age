@@ -1,0 +1,4 @@
+MATCH (n:test_5)
+        REMOVE n.i
+        REMOVE n.j
+        RETURN n

@@ -1,0 +1,1 @@
+MATCH ()-[e*2..2]->() RETURN e[1].arry[2].stats ORDER BY id(e[1]) ASC

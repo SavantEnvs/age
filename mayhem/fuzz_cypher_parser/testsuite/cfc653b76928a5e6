@@ -1,0 +1,1 @@
+RETURN all(x IN [1, null] WHERE x > 0)

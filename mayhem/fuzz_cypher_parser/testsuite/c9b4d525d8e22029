@@ -1,0 +1,4 @@
+UNWIND [0, 1, 2] AS r
+    UNWIND [0, 1] AS c
+    MATCH (a:N {id: 70 + 3 * r + c}), (b:N {id: 70 + 3 * r + c + 1})
+    CREATE (a)-[:KNOWS]->(b)

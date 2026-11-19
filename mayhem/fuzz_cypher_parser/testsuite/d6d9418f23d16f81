@@ -1,0 +1,1 @@
+MATCH (n1:Object)-[e1:knows]->() MATCH (n2:Object) WHERE NOT EXISTS((n1)-[e1]->(n2)) RETURN e1

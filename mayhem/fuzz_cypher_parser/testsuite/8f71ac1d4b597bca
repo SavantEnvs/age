@@ -1,0 +1,2 @@
+WITH 0 AS w
+    RETURN reduce(s = 0, x IN [1, 2, 3] | CASE WHEN true THEN s + x ELSE s + 1/w END)

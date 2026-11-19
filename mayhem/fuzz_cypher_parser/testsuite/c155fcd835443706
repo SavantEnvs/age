@@ -1,0 +1,1 @@
+WITH {name:'Bob', age:50} AS map RETURN map { .name, .age, height:180 }

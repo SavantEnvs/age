@@ -1,0 +1,4 @@
+MATCH (a:n_var)
+	WHERE a.name = 'Node Z'
+	CREATE (a)-[:e_var {name: a.name + ' -> does not exist'}]->(:n_other_node)
+	RETURN a

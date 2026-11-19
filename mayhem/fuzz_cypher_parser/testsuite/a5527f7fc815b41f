@@ -1,0 +1,1 @@
+MATCH (x:Label1), (y:Label3), (z:Label7) DETACH DELETE x, y, z RETURN 1

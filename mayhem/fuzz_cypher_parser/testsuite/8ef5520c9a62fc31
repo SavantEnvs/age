@@ -1,0 +1,3 @@
+MATCH (p: VertexA)
+    SET p += {vertex: {id: 281474976710659, label: "", properties: {a: 1, b: [1, 2, 3]}}::vertex}
+    RETURN p

@@ -1,0 +1,2 @@
+MATCH(n:Country2 {iso2 : 'AT'})
+    RETURN id(n), n.name, n.iso2

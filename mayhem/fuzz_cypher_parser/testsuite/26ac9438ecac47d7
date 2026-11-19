@@ -1,0 +1,2 @@
+MATCH (p:Person)-[:OWNS]->(d:Document)
+    RETURN p.name, d.title

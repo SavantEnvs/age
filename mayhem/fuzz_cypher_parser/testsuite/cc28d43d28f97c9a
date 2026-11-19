@@ -1,0 +1,1 @@
+RETURN all(x IN [{n: 1}, {n: 2}] WHERE x.n > 1)

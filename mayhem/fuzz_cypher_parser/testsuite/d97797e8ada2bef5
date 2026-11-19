@@ -1,0 +1,6 @@
+MATCH (a:person)-[]->(b)
+									WHERE COALESCE( EXISTS {MATCH (a)-[:knows]->(b)
+														    WHERE COALESCE( EXISTS {MATCH (a)
+																				    WHERE a.name = "Calvin"
+																				    OR a.name = "Charlie"})})
+									RETURN a

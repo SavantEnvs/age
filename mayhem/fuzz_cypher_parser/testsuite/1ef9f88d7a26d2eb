@@ -1,0 +1,2 @@
+CREATE (a:TestB3)-[e:B3REL]->(b:TestB3)
+    RETURN a

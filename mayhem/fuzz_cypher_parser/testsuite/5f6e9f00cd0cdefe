@@ -1,0 +1,1 @@
+MATCH p=(u)-[e*0..0]->(v) RETURN id(u), p, id(v) ORDER BY id(u) ASC, p ASC, id(v) ASC

@@ -1,0 +1,1 @@
+MATCH ()-[e]->(:v1) RETURN e

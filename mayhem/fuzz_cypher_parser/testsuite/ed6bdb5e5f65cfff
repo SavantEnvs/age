@@ -1,0 +1,3 @@
+MATCH (m:Movie), (search:Movie {title: "The Terminator"})
+                                 RETURN m.title ORDER BY m.embedding::vector OPERATOR (`<->`) search.embedding::vector
+                                 ASC LIMIT 4

@@ -1,0 +1,1 @@
+MATCH ()-[k:KNOWS]->() WHERE k.since IN [2020, 2021] RETURN k.since, k.notes ORDER BY k.since

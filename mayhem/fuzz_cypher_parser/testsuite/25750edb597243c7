@@ -1,0 +1,2 @@
+MATCH (n:src)
+    CREATE (:copy {from: n.id})

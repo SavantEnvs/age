@@ -1,0 +1,2 @@
+MATCH (a:Person {name: 'Alice'}), (d:Document {title: 'Public Doc'})
+    CREATE (a)-[:AUTHORED]->(d)

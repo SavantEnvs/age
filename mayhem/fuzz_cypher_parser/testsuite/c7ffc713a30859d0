@@ -1,0 +1,1 @@
+CALL sqrt(64) YIELD sqrt CALL agtype_sum(2,2) YIELD agtype_sum RETURN sqrt, agtype_sum

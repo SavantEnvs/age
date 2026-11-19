@@ -1,0 +1,3 @@
+MERGE (n:TestD1 {name: 'merged'})
+    SET n.ref = n
+    RETURN n

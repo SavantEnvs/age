@@ -1,0 +1,1 @@
+CREATE (:students {name: "Ann", gpa: 3.8::numeric, age: 23})

@@ -1,0 +1,3 @@
+CREATE (n:TestD2 {name: 'created'})
+    SET n.ref = n
+    RETURN n

@@ -1,0 +1,2 @@
+MATCH (a:N {name:'A'}), (c:N {name:'C'})
+    RETURN shortest_path(a, c)

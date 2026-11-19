@@ -1,0 +1,2 @@
+WITH {factor: 10} AS m
+    RETURN reduce(s = 0, x IN [1, 2, 3] | s + x * m.factor)

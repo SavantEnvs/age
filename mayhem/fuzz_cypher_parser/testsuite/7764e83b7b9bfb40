@@ -1,0 +1,2 @@
+MATCH (n:DeleteStored)
+    DELETE n

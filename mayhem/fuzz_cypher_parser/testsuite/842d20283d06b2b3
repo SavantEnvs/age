@@ -1,0 +1,4 @@
+UNWIND [{first: 'jon', last: 'snow'}, {first: 'ned', last: 'stark'}] AS map
+                                      MERGE (v:PERSON {first: map.first})
+                                      SET v=map
+                                      RETURN v

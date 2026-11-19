@@ -1,0 +1,1 @@
+WITH {b: [1,2,3]} AS m WITH m, m || {a: 1::numeric} AS n RETURN n

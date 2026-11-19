@@ -1,0 +1,1 @@
+MATCH (u:people) WHERE 30 <= u.age <= 49 = u.age RETURN u

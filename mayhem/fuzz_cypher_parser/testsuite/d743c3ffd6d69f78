@@ -1,0 +1,1 @@
+MATCH (u:begin)-[e*0..1]->(v) RETURN id(u), e, id(v) ORDER BY id(u) ASC, e ASC, id(v) ASC

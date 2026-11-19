@@ -1,0 +1,1 @@
+MATCH p = (a:Source)-[:LINK*1..1]->(b:Target) RETURN count(p)

@@ -1,0 +1,1 @@
+MATCH (u) RETURN min(u.gpa), max(u.gpa), count(u.gpa), count(*)

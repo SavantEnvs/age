@@ -1,0 +1,1 @@
+RETURN [1,2] IN ['StR', 1, 2, true]

@@ -1,0 +1,9 @@
+project: savantenvs/age
+target: fuzz_agtype_in
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_agtype_in/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_agtype_in
+    libfuzzer: true
+    timeout: 5

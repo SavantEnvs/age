@@ -1,0 +1,1 @@
+MATCH (x:Label1{arr:[1,2,3,4]}) MERGE (y:Label2{key2:id(x)}) RETURN y

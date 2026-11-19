@@ -1,0 +1,4 @@
+MATCH (m:Movie)
+        RETURN m.title
+        ORDER BY m.embedding::vector(4) <=> [-0.07594558, 0.04081754, 0.29592122, -0.11921061]::vector(4)
+        ASC LIMIT 4

@@ -1,0 +1,2 @@
+WITH 2 AS w
+    RETURN reduce(s = 0, x IN [1, 2, 3] | CASE WHEN x % 2 = 0 THEN s + 10/w ELSE s + x END)

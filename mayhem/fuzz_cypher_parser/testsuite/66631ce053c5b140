@@ -1,0 +1,1 @@
+MATCH (u {list:[i IN range(1,13,2)]}) RETURN u

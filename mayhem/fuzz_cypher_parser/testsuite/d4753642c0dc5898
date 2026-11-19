@@ -1,0 +1,7 @@
+MATCH (a:A)-[:R]->(b:B)
+    CREATE (c:C {name: a.name + '|' + b.name})
+    WITH a, b, c
+    MERGE (a)-[:LINK1]->(c)
+    MERGE (b)-[:LINK2]->(c)
+    RETURN a.name, b.name, c.name
+    ORDER BY a.name

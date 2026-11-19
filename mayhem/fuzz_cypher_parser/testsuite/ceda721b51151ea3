@@ -1,0 +1,1 @@
+RETURN single(x IN [1, null, -1] WHERE x > 0)

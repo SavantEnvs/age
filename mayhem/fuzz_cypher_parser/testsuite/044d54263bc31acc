@@ -1,0 +1,4 @@
+MATCH (person)-[r]->(otherPerson)
+    WITH *, type(r) AS connectionType
+    RETURN person.name, connectionType, otherPerson.name
+    ORDER BY id(person) ASC, id(otherPerson) ASC

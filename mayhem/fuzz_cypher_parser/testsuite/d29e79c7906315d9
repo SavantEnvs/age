@@ -1,0 +1,4 @@
+MATCH (a:person)
+									RETURN a.name, COUNT{MATCH (a)
+														 WHERE COUNT {MATCH (b) RETURN b } > 1
+														 RETURN b}

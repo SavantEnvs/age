@@ -1,0 +1,2 @@
+MATCH (u:duplicate)-[]-(:other_v)
+	RETURN DISTINCT u

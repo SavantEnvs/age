@@ -1,0 +1,1 @@
+MATCH ()-[e*2..2]->() RETURN properties(e[1]) ORDER BY id(e[1]) ASC

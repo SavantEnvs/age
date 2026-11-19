@@ -1,0 +1,1 @@
+RETURN pg_catalog.sqrt(pg_catalog.sqrt(pg_catalog.sqrt(256::pg_bigint)))

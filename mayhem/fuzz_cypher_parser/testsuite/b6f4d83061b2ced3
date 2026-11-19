@@ -1,0 +1,1 @@
+MATCH (u) RETURN collect(u.gpa), collect(u.gpa)

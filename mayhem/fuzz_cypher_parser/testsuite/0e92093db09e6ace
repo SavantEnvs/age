@@ -1,0 +1,5 @@
+UNWIND range(1, 1000) AS ident
+  MERGE (:DedupBatch {
+    id: 21,
+    payload: {nested: [21]}
+  })

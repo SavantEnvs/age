@@ -1,0 +1,1 @@
+MATCH (n) WHERE n.id >= 100 AND n.id < 110 DETACH DELETE n

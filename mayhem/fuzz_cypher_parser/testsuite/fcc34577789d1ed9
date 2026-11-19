@@ -1,0 +1,2 @@
+MATCH (v)
+    RETURN reverse(v)

@@ -1,0 +1,1 @@
+RETURN [u IN [1,2,3] WHERE u>1], [u IN [1,2,3] WHERE u>2]

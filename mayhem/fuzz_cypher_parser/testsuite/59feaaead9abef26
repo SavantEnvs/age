@@ -1,0 +1,1 @@
+WITH {name:'Bob', age:50} AS map, 'Tom' as name RETURN map { name, .* }

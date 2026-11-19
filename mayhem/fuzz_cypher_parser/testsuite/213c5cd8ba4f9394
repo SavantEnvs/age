@@ -1,0 +1,5 @@
+UNWIND [1, 2, 3] AS i
+    CREATE (:vis {id: i})
+    WITH count(*) AS ignored
+    MATCH (n:vis)
+    RETURN count(n)

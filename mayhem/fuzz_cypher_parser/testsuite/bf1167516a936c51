@@ -1,0 +1,1 @@
+MATCH p=(a)-[u {relationship: u.relationship, years: u.years}]->(b) RETURN p ORDER BY id(u)

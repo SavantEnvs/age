@@ -1,0 +1,4 @@
+MATCH (a:Person), (c:Person)
+    WHERE (a)-[:KNOWS]->()-[:WORKS_WITH]->(c)
+    RETURN a.name, c.name
+    ORDER BY a.name

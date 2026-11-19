@@ -1,0 +1,4 @@
+MATCH (a:Person {name: 'Alice'})
+  MERGE (a)-[:KNOWS]->(b:Person {name: 'Charlie'})
+    ON MATCH SET b.visited = true
+  RETURN a.name, b.name, b.visited
